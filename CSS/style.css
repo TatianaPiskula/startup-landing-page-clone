@@ -1,5 +1,6 @@
 body {
 	background-color: LightGray;
+	-webkit-font-smoothing: antialiased;
 }
 div {
 	border: 1px solid Chocolate;
@@ -16,9 +17,19 @@ div {
 }
 .top-navigation .links {
 	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: 25px;
 }
 .top-navigation .links li {
 	display:inline-block;
+	margin-left: 15px;
+}
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
 }
 .logo {
 	margin-top: 15px;
