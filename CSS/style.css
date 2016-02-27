@@ -1,6 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
 	background-color: LightGray;
-	-webkit-font-smoothing: antialiased;
 }
 div {
 	border: 1px solid Chocolate;
@@ -9,7 +14,7 @@ div {
 .top-navigation {
 	background-color:#fff;
 }
-.top-navigation > .content {
+.content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -22,14 +27,20 @@ div {
 	color: #838994;
 	letter-spacing: 0.03em;
 	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
 	display:inline-block;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 .top-navigation .links > .active {
     color: #4c5058;
     font-weight: 500;
+}
+.top-navigation .links li:hover {
+	cursor: pointer;
+    color: #333333;
+    transition: all .5s ease;
 }
 .logo {
 	margin-top: 15px;
