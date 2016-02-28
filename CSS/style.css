@@ -19,15 +19,15 @@ div {
 	width: 100%;
 	z-index: 9999;
 }
-.content {
+.content, .cases{
 	margin: 0 auto;
-    padding: 0px 15px;
     width: 970px;
     box-sizing: border-box;
 }
 .top-navigation .content {
 	margin: 0 auto;
     height: 70px;
+    padding: 0px 15px;
 }
 .top-navigation .links {
 	float: right;
@@ -117,3 +117,25 @@ button:hover {
 	margin: 0 auto;
 	display:block;
 }
+.content {
+	text-align: center;
+}
+.social .content h5 {
+	text-align: center;
+	font-weight: 400;
+    font-size: 100%;
+}
+.social .icons {
+	padding:0;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    margin-top:-3px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+  }
