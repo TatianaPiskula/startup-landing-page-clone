@@ -5,12 +5,12 @@ html {
   box-sizing: inherit;
 }
 body {
-	background-color: LightGray;
+	background-color: White;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 div {
-	border: 1px solid Chocolate;
+	border: 1px solid white;
 }
 /* Navigation Section */
 .top-navigation {
@@ -102,8 +102,6 @@ button:hover {
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
     box-sizing: border-box;
     height: auto;
     float: left;
@@ -117,13 +115,17 @@ button:hover {
 	margin: 0 auto;
 	display:block;
 }
-.content {
+.social .content hr {
+    border-top: 1px solid #eaebec;
+}
+.social .content {
 	text-align: center;
 }
 .social .content h5 {
 	text-align: center;
 	font-weight: 400;
     font-size: 100%;
+    padding-top: 100px;
 }
 .social .icons {
 	padding:0;
@@ -138,4 +140,13 @@ button:hover {
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+  }
+  .social .fa-twitter {
+  	    color: #55acee;
+  }
+  .social .fa-facebook{
+  	    color: #4c66a4;
+  }
+  .social .fa-instagram {
+  	    color: #3f729b;
   }
