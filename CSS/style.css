@@ -85,5 +85,10 @@ button {
     display: block;
     margin: 0 auto;
 }
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
+}
 
 
